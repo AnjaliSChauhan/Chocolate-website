@@ -1,0 +1,577 @@
+
+
+body{
+  margin: 0;
+}
+
+/* darkdrip nav main brand name*/
+
+h1{
+  margin: 0;
+  margin-bottom: 0!important;
+  padding: 1%;
+  padding-bottom: 0.5%;
+  font-family: 'Caveat Brush', cursive;
+  font-size: 75px;
+  color: #87431D;
+  text-align: center;
+  background-color: #0c0002;
+}
+
+.brand:hover{
+  text-decoration: none;
+}
+
+
+/* Navigation Bar */
+
+.nav-item {
+  margin: 0;
+  padding: auto 7%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+.nav-custom{
+  background-color: #0c0002;
+  color: #87431D;
+}
+
+.navbar-text{
+  color: #87431D;
+}
+.nav-link{
+  color: #87431D;
+}
+.nav-link:hover{
+  color: #C87941;
+}
+
+/* home.html css */
+
+/* about section home page */
+.about-us {
+  padding: 5%;
+  padding-bottom: 3%;
+  background-color: #fff;
+}
+
+.about-para {
+  color: #0c0002;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.1rem;
+  padding: 0 3%;
+  line-height: 1.5;
+}
+
+.abt-btn{
+  background-color: #87431D !important;
+  border-radius: 10px;
+  color: #DBCBBD;
+}
+
+.abt-btn:hover{
+  background-color: #a85423 !important;
+}
+.title-image {
+  margin-top: 2%;
+}
+
+/* products on home page*/
+
+#products{
+  position: relative;
+  background-color: #0c0002;
+  padding: 5%;
+}
+
+.pro-box{
+  text-align: center;
+
+}
+
+.card{
+  border-style: none;
+  border-radius: 30%;
+}
+
+.pro-title{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #FFF5E1;
+  padding: 3%;
+}
+
+.pro-img:hover{
+  border: #0c0002 4px solid;
+ 
+}
+.pro-box a:hover{
+  text-decoration: none;
+  color: #C87941;
+  font-weight: bolder;
+}
+
+/* feature section home page */
+
+#feat {
+  position: relative;
+}
+
+.feat-box {
+  font-size: 1.2rem; 
+  line-height: 1.5;
+  padding: 4% 2%;
+  text-align: center;
+}
+
+.ft-icon{
+  color: #87431D;
+  padding: 10%;
+}
+
+.ft-icon:hover{
+  color: #C87941;
+}
+
+.feat-para{
+  padding-top: 5%;
+  color: #330006;
+  font-family: 'Roboto', sans-serif; 
+  font-weight: 700;
+}
+
+
+
+
+/* about.html page css */
+
+/* main about section about page */
+
+#about-main .row{
+  margin: 0 2% 0 2% !important;
+}
+
+.sec-title{
+  font-family: 'Caveat Brush', cursive;
+  font-size: 4rem;
+  font-weight: bolder;
+  text-align: center;
+  padding-top: 5%;
+  color: #0c0002;
+}
+
+.abt-para{
+  padding: 4%;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.abt-image{
+  padding-top: 20%;
+}
+
+/* chef feature section about page*/
+
+#features {
+  position: relative;
+}
+
+.mid-title{
+  font-family: 'Roboto', sans-serif; 
+  font-size: 3rem;
+  font-weight: bolder;
+  color: #0c0002;
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 1%;
+} 
+
+.mid-para{
+  color: #a85423;
+  font-family: 'Roboto', sans-serif; 
+  font-weight: 700;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  font-family: 'Playfair Display', serif;
+  font-weight: bolder;
+  text-align: center;
+  color: #290001;
+}
+
+.feature-box {
+  font-size: 1.2rem; 
+  line-height: 1.5;
+  padding: 2% 2% 3%;
+  text-align: center;
+}
+
+.feature-img {
+  margin: 10%;
+}
+
+/* career Section about page*/
+
+#career-carousel{
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.career-title{
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #0c0002;
+  padding: 2%;
+
+}
+.career-txt {
+  font-size: 1.2rem;
+  padding: 0 20%;
+  font-family: 'Roboto', sans-serif; 
+  font-weight: bolder;
+  color: #683111;
+}
+
+
+
+/* chocolate.html css */
+
+/* product page on chocolate page */
+
+#product-section{
+  position: relative;
+  background-color: #0c0002;
+}
+
+.product-sec{
+  padding: 3% 3% 5%; 
+}
+
+.product-div{
+  padding: 4%;
+}
+
+.product-div-sec{
+  text-align: center;
+  padding: -3%;
+}
+
+.product-title{
+  text-align: center;
+  text-justify: inter-word;
+  word-wrap: normal;
+  color: #87431D;
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 0%;
+  margin: 2%;
+}
+
+.product-title:hover{
+  color: #a85423;
+  font-weight: bolder;
+}
+
+.product-txt{
+  color: #a75e33;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.2rem;
+  line-height: 1.7;
+  padding: 2% 1.5% 1.5% 2.5%;
+}
+
+.product-img{
+  border-radius: 5%;
+}
+
+/* product card on chocolate page*/
+
+.pro-sm-card{
+  padding: 2% 2% 4%;
+}
+
+.card.pro-card{
+  background-color: #5f2d10;
+}
+.pro-sm-card-title{
+  font-family: 'Playfair Display', serif;
+  color: #0c0002;
+  font-weight: bold;
+}
+
+.pro-sm-card-txt{
+  font-family: 'Roboto', sans-serif;
+  color: #FFF5E1;
+  font-weight: bolder;
+}
+
+.pro-sm-card-btn{
+  background-color: #0c0002 !important;
+  font-family: 'Playfair Display', serif;
+  color: #DBCBBD;
+  font-weight: bolder;
+}
+
+.pro-sm-card-btn:hover{
+  color: #0c0002;
+  font-weight: bolder;
+}
+
+.pro-link{
+  text-align: center;
+  color: #FFF5E1;
+  font-family: 'Roboto', sans-serif;
+}
+
+.pro-link:hover{
+  text-decoration: none;
+  color: #f7e6c4;
+  font-weight: bolder;
+}
+
+.price{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #FFF5E1;
+  font-size: 1.2rem;
+  padding: 2%;
+}
+
+
+
+/* all product link on chocolat.html css */
+
+/* all product on chocolate page */
+
+#chocolate{
+  text-align: center;
+}
+
+#cookies{
+  text-align: center;
+}
+
+.coco-card{
+  background-color: #0c0002 !important;
+}
+
+#chocolate .row{
+margin: 2% 5% -4% 9% !important;
+}
+
+#cookies .row{
+margin: 2% 3% 3% 6% !important;
+}
+  
+.coco-sm-card{
+  padding: 2% 3%;
+}
+
+.coco-sm-card-title{
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  color: #FFF5E1;
+  padding: 5% 0 2%;
+}
+
+.coco-sm-card-txt{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  color: #DBCBBD;
+  padding: 2%;
+}
+
+.coco-sm-card-btn{
+  background-color: #5f2d10 !important;
+  font-family: 'Playfair Display', serif;
+  color: #FFF5E1;
+}
+
+.coco-sm-card-btn:hover{
+  background-color: #FFF5E1 !important;
+  color: #0c0002 !important;
+  font-weight: bolder;
+}
+
+
+
+
+/* add-to-cart.html css */
+
+/* cart on add-to-cart page */
+
+.cart{
+  width: 70%;
+  text-align: center;
+  padding: 3%;
+  margin: auto;
+}
+
+.cart-div{
+  padding: 3%;
+  background-color: #5f2d10;
+}
+
+.cart-title{
+  font-family: 'Playfair Display', serif;
+  color: #FFF5E1;
+  font-size: 1.5rem;
+}
+
+.cart-btn{
+  background-color: #071355 !important;
+  margin-top: 5%;
+  padding: 2% !important;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cart-btn:hover{
+  background-color: #111d5e !important;
+  font-weight: bolder;
+}
+
+
+
+
+/* contact.html page css  */
+
+/* contact form */
+.contact-form{
+  margin-bottom: 5%;
+  width: 80%;
+}
+
+.contact-form .form-control{
+  border-radius:1rem;
+}
+
+.contact-image{
+  text-align: center;
+}
+
+.contact-image img{
+  margin-top: 1%;
+}
+
+.contact-form form{
+  padding: 8%;
+}
+
+.contact-form form .row{
+  margin-bottom: -7%;
+}
+
+.contact-form h4{
+  margin-bottom: 5%;
+  margin-top: -12%;
+  text-align: center;
+  color: #0c0002;
+  font-family: 'Roboto', sans-serif; 
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+.contact-form .btnContact {
+  width: 30%;
+  border: none;
+  border-radius: 1rem;
+  padding: 2%;
+  background: #0c0002;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+}
+
+.contact-form .btnContact:hover{
+  background-color: #330006;
+  color: #C87941;
+}
+
+
+
+/* footer section for all page*/
+
+#foot{
+  position: relative;
+}
+
+.footer-box {
+  background-color: #5f2d10;
+  color: #FFF5E1;
+  padding-top: 3%;
+  padding-left: 10%;
+  width: 80%;
+}
+
+#foot .col-lg-6{
+  padding-left: 5% !important;
+}
+
+.footer-box .foot-title{
+  font-family: 'Playfair Display', serif;
+  font-size: 1.3rem;
+  font-weight: bolder;
+  padding-bottom: 4%; 
+}
+
+.foot-abt-para {
+  text-align: justify;
+  text-justify: inter-word;
+  width: 60%;
+}
+
+.read{
+  color: #fcda96;
+
+}
+.read:hover{
+  color: #0c0002;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.footer-box ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.quick-link{
+  color: #FFF5E1;
+  line-height: 2rem;
+  text-decoration: none;
+}
+
+.quick-link:hover{
+  color: #0c0002;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.quick-link ul{
+  padding-inline-start: -40px !important;
+}
+
+.social-icon-list li{
+  display:inline-block;
+  padding:3% 5% 5% 1%;
+}
+
+.socialmedia-icon{
+  color: #FFF5E1;
+  margin: 5%;
+}
+
+.socialmedia-icon:hover{
+  color: #0c0002;
+}
+.cpy-txt{
+  padding-bottom: 2%;
+  text-align: center;
+}
